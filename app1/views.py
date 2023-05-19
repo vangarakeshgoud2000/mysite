@@ -11,3 +11,6 @@ def product(request):
 
 def orders(request):
     return HttpResponse("<h1>this is order page</h1>")
+
+def customers(request):
+    return HttpResponse("<h1>this is customers page</h1>")
