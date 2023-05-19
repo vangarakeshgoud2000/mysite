@@ -8,3 +8,6 @@ def index(request):
 
 def product(request):
     return HttpResponse("<h1>this is product page</h1>")
+
+def orders(request):
+    return HttpResponse("<h1>this is order page</h1>")
